@@ -1,11 +1,13 @@
 #Author: Phong Vang
-#Date: 10.22.2015
-#This program calculates a tip percentage for a given amount.
+#Date: 11.08.2018
+#This program calculates a tip for 15%, 18%, and 20% of an amount.
+
+import Percentages
 
 def main():
 
     print("Welcome to Tip Calculator program.")
-    print("This program calculates a tip amount for any given amount.")
+    print("This program calculates the tip for a given amount.")
 
     billAmount = eval( input ("\nEnter an amount: $") );
 
